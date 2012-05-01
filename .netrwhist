@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='scp://p6242r36@66.84.0.143//apps/'
+let g:netrw_dirhist_2='/Users/beau.lyddon/projects/developer-scripts/spikes/xmlbench'
+let g:netrw_dirhist_3='/Users/beau.lyddon/.irssi'
