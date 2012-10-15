@@ -1,0 +1,56 @@
+<form class="edit containter-fluid well form-horizontal">
+    <div class="row-fluid">
+        <div class="modal-body">
+            <div class="span4">
+                <fieldset>
+                    <div class="control-group">
+                    <label for="identifier" class="control-label">Identifier:</label>
+                    <div class="controls">
+                    <input id="identifier" name="identifier" type="text" value="<%- identifier %>" 
+                            autocomplete="off" class="identifier input-small" placeholder="Student ID..." />
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label for="name" class="control-label">Name:</label>
+                    <div class="controls">
+                    <input id="name" name="name" type="text" value="<%- name %>" 
+                            autocomplete="off" class="name" placeholder="Name..." />
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label for="notes" class="control-label">Notes:</label>
+                    <div class="controls">
+                    <textarea id="notes" name="notes" class="notes input-xlarge"
+                                placeholder="Notes..."><%- notes %></textarea>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Groups:</label>
+                    <div class="controls">
+                    <div class="control">
+                        <fieldset class="groups"></fieldset>
+                        <button class="group add_group btn btn-primary">Add group</button>
+                    </div>
+                    </div>
+                </div>
+                </fieldset>
+            </div>
+            <div class="span5 contact-area">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label">Contacts:</label>
+                        <div class="controls">
+                            <div class="control">
+                                <ul class="contacts unstyled" ></ul>
+                                <button class="contact add_contact btn btn-primary">Add Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            </div>
+            <div class="modal-footer form-actions">
+            <button class="save btn btn-primary">Save</button>
+        </div>
+    </div>
+</form>

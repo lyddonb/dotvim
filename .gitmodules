@@ -121,3 +121,15 @@
 [submodule "bundle/vitality"]
 	path = bundle/vitality
 	url = https://github.com/sjl/vitality.vim
+[submodule "bundle/vim-nerdtree-tabs"]
+	path = bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline
+[submodule "bundle/numbers"]
+	path = bundle/numbers
+	url = https://github.com/myusuf3/numbers.vim
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized

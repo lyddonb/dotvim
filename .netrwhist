@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='scp://p6242r36@66.84.0.143//apps/'
 let g:netrw_dirhist_2='/Users/beau.lyddon/projects/developer-scripts/spikes/xmlbench'
 let g:netrw_dirhist_3='/Users/beau.lyddon/.irssi'
+let g:netrw_dirhist_4='/Users/beau.lyddon/projects/gae-skeleton'
+let g:netrw_dirhist_5='/Users/beau.lyddon/tmp/build'
+let g:netrw_dirhist_6='/Users/beau.lyddon/Dropbox/todo'

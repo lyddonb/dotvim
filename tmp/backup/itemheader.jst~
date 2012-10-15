@@ -1,0 +1,4 @@
+<div class="top_view row-fluid ">
+    <h3 id="editheader" class="span4">Student</h3>
+    <div class="top-alert span8 row-fluid status-bar"></div>
+</div>
